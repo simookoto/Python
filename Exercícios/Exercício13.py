@@ -1,0 +1,5 @@
+s=float(input('qual o salario do funcionario?R$'))
+ns=s+(s*15/100)
+print('o salario de R${:.2f},' .format(s))
+print('com 15% de aumento,')
+print('agora sera de R${:.2f}.' .format(ns))
