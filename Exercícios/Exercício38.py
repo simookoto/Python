@@ -5,4 +5,5 @@ if num1>num2:
 elif num2>num1:
   print('o segundo valor é maior')
 else:
-  print('os dois são iguais, não a um maior')
+  print('os dois são iguais,')
+  print('não a um valor maior maior')
