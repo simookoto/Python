@@ -7,7 +7,7 @@ r3=float(input('terceiro segmento: '))
 if r1 < r2+r3 and r2 < r1+r3 and r3 < r1+r2:
   print('pode forma um triangulo')
   if r1 == r2 == r3:
-    ('o triangulo é equilátero!')
+    print('o triangulo é equilátero!')
   elif r1 != r2 != r3 != r1:
       print('o triangulo é escaleno!')
   else:
