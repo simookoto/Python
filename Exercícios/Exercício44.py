@@ -17,6 +17,9 @@ elif pag == 2:
   print('pagando a vista no cartão o valor')
   print('fica {:.2f} com um desconto de 5%' .format(desc))
 elif pag == 3:
+  parcelas= compra /2
+  print('sua compra será parcelada em 2x')
+  print(' de R${} SEM JUROS!' .format(parcelas))
   print('em até 2x no cartão a compra fica')
   print('com o total de R$ {:.2f}' .format(compra))
 elif pag == 4:
