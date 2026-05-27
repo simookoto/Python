@@ -6,4 +6,4 @@ elif num2>num1:
   print('o segundo valor é maior')
 else:
   print('os dois são iguais,')
-  print('não a um valor maior maior')
+  print('não a um valor maior')
