@@ -29,3 +29,6 @@ elif pag == 4:
   print('sua compra será parcelada em {:.2f}x ' .format(vezes))
   print('a parcela será de {:.2f}' .format(parcelas))
   print('o total ficara de R${:.2f} com 20% de juros' .format(juros))
+else:
+  total= 0
+  print(' escolha INVALIDA de pagamento!')
