@@ -16,7 +16,7 @@ sleep(1)
 print('PO!!!')
 
 print('-=-' *10)
-print('computador jogou {}' .format(itens[computador])
+print('computador jogou {}' .format(itens[computador]))
 print('jogador jogou {}' .format(itens[jogador]))
 print('-=-' *10)
 if computador == 0:
