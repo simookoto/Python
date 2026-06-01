@@ -3,5 +3,7 @@ print('10 TERMOS DE UMA P.A.')
 print('==' *10)
 pt=int(input('primeiro termo: '))
 rz=int(input('razão: '))
-for c in range(rz, 10, rz):
-  print(c)
+de= pt + (10-1) * rz
+for c in range(pt, de, rz):
+  print('{}' .format(c), end=' →')
+print('ACABOU!')
