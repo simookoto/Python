@@ -4,6 +4,6 @@ print('==' *10)
 pt=int(input('primeiro termo: '))
 rz=int(input('razão: '))
 de= pt + (10-1) * rz
-for c in range(pt, de, rz):
+for c in range(pt, de+rz, rz):
   print('{}' .format(c), end=' →')
 print('ACABOU!')
