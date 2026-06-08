@@ -18,3 +18,4 @@ while mais != 0:
   print('PAUSA')
   mais=int(input('quantos termos você quer \nmostrar a mais? '))
 print('FIM!')
+print('progressão finalizada \ncom {} termos mostrados' .format(total))
