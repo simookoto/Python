@@ -3,6 +3,7 @@ n1=int(input('primeiro valor: '))
 n2=int(input('segundo valor: '))
 opçao= 0
 while opçao != 5:
+  print('-='*18)
   print('''  [1] somar
   [2] multiplicar
   [3] maior
@@ -42,5 +43,4 @@ while opçao != 5:
     sleep(2)
   else:
     print('opção inválida, tente novamente')
-  print('-='*15)
 print('fim do programa, volte sempre!')
