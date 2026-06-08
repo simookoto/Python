@@ -20,7 +20,7 @@ while opçao != 5:
     elif n2 < n1:
       print('o maior é {}' .format(n1))
   elif opçao== 4:
-    print('digite denovo os valores')
+    print('digite denovo os valores:')
   elif opçao== 5:
     
   else:
