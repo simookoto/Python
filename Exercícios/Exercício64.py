@@ -1,6 +1,7 @@
-n= int(input('digite um número [999 para parar]: '))
-cont= 0
+n= cont= soma= 0
+n= int(input('digite um número \n[999 para parar]: '))
 while n != 999:
-  n= int(input('digite um número [999 para parar]: '))
+  soma+= n
   cont+= 1
-print('a soma dos números da {}' .format())
+  n= int(input('digite um número \n[999 para parar]: '))
+print('você digitou {} números \ne a soma entre eles é {}' .format(cont, soma))
