@@ -9,7 +9,7 @@ print('[2] humano')
 print(' ')
 robo=int(input(''))
 raiz= computador ** (0.5)
- while robo != 1 or robo != 2: 
+ while robo != 1 and robo !=2: 
   if robo== 1:
     print('robô vagabundo')
   elif robo== 2:
