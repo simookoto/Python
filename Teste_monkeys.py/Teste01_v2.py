@@ -11,10 +11,10 @@ robo=int(input(''))
 raiz= computador ** (0.5)
  while robo != 1 or robo != 2: 
   if robo== 1:
-  print('robô vagabundo')
-elif robo== 2:
-  teste=int(input('qual a raiz quadrada de {}? ' .format(computador)))
-if teste== raiz:
-  print('você é um robô! adeus')
-elif teste != raiz:
-  print('você é um humano')
+    print('robô vagabundo')
+  elif robo== 2:
+    teste=int(input('qual a raiz quadrada de {}? ' .format(computador)))
+  if teste== raiz:
+    print('você é um robô! adeus')
+  elif teste != raiz:
+    print('você é um humano')
