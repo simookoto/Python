@@ -1,6 +1,6 @@
 palavras= ('caderno', 'nome', 'pessoa', 'garagem', 'computador', 'engrenagem')
-for p in palavras:
+for pala in palavras:
   print(f'\nna palavra {p} temos ', end='')
-  for letras in p:
+  for letras in pala:
     if letras.lower() in 'aeiou':
       print( letras, end=' ')
