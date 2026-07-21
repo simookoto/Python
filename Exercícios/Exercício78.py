@@ -1,0 +1,2 @@
+n=[int(input('digite o 1ª valor: ')), int(input('digite o 2ª valor: ')), int(input('digite o 3ª valor: ')), int(input('digite o 4ª valor: ')), int(input('digite o 5ª valor: ')),]
+print(f' você digitou os valores {n}\no maior valor foi {max(n)}, na posicão {n.index(max(n))+1}\ne o menor foi {min(n)}, na posição {n.index(min(n))+1}')
