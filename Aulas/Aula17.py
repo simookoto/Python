@@ -14,4 +14,4 @@ valores= []
 for contador in range(0, 5):
   valores.append(int(input('digite um valor: ')))
 for cont, valor in enumerate(valores):
-  print(f'na posição {cont} encontrei o valor {valor}! ')
+  print(f'na posição {cont+1} encontrei o valor {valor}! ')
