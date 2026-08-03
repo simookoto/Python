@@ -9,10 +9,11 @@ while True:
     resposta=str(input('quer continuar? [S/N]')).strip().upper()
   if resposta == 'N':
     break
-if numero % 2 == 0:
-  pares.append(numero)
-elif numero % 2 == 1:
-  impares.append(numero)
+for i, v in enumerate(numeros):
+  if v % 2 == 0:
+    pares.append(v)
+  elif v % 2 == 1:
+    impares.append(v)
 print(f'os números na lista são {numeros}')
 print(f'os números pares da lista são {pares}')
 print(f'e os números ímpares são {impares}')
