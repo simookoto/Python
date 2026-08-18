@@ -8,7 +8,7 @@ teste[1]= 20
 galera.append(teste[:])
 print(galera)'''
 
-'''pessoal=[['Daniel', 15],['júlia', 14],['Pedro', 14],['Nataly', 15]]
+'''pessoal=[['Daniel', 15],['Natan', 14],['Pedro', 14],['Kauã', 15]]
 #print(pessoal[2][1])
 for pessoa in pessoal:
   print(f'{pessoa[0]} tem {pessoa[1]} anos de idade.')'''
