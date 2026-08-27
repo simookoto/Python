@@ -4,7 +4,7 @@ nume=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
 print('=='*10)
 print('         MEGA SENA')
 print('=='*10)
-sorteios= int(input('digite quantos jogos \nvocê quer sortear: '))
+sorteios= int(input('Digite quantos jogos \nvocê quer sortear: '))
 for jogo in range(0, sorteios):
   numsor= sample(nume, 5)
   numsor.sort()
