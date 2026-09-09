@@ -13,10 +13,12 @@ print(f'               boletim')
 print('=='*10)
 for aluno in sala:
   print(f'aluno: {aluno[0]}      média: {aluno[2]}')
+  print('=='*10)
 while True:
-  busca= input('digite o nome do aluno \npara ver seus dados: \n[digite 999 para parar]')
+  busca= input('Digite o nome do aluno \npara ver seus dados: \n[Digite 999 para parar]')
   if busca == '999':
     break
   for aluno in sala:
     if aluno[0].lower() == busca.lower():
-      print(f'aluno: {aluno[0]} notas: {aluno[1]} média:{aluno[2]}')
+      print(' ')
+      print(f'Aluno: {aluno[0]}      Notas: {aluno[1]} \n    Média:{aluno[2]}')
